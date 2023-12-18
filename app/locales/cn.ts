@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。\n\n如果您没有 OpenAI API Key，可以考虑使用本项目的中转服务，价格与 OpenAI 完全保持一致，并且可以在大部分地区直连使用，使用此中转服务将帮助本项目良性发展。\n\n中转入口：[使用手册](https://flowus.cn/yifei/share/7c1ff13b-277d-40da-8c04-ebf770ea46ea) | [网页版入口](https://home.nextapi.fun/) | [爱发电入口](https://afdian.net/a/yidadaa)\n\n*注：本提示仅会在本项目的官方演示站出现，您不会在本项目提供的客户端中看到此消息，您按照本项目说明（Docker / Vercel / CloudFlare）所部署的源码以及产物中完全不会出现此消息，请放心使用。*",
   },
   Auth: {
     Title: "需要密码",
